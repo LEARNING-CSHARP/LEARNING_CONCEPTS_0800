@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LEARNING_CONCEPTS.Learn04.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -41,6 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Learn10.cs" />
+    <Compile Include="Learn09.cs" />
+    <Compile Include="Learn08.cs" />
+    <Compile Include="Learn07.cs" />
+    <Compile Include="Learn06.cs" />
+    <Compile Include="Learn05.cs" />
+    <Compile Include="Learn04.cs" />
+    <Compile Include="Learn03.cs" />
+    <Compile Include="Learn02.cs" />
+    <Compile Include="Learn01.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
