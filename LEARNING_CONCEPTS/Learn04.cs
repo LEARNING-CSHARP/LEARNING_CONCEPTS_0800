@@ -8,19 +8,19 @@
 
 		public int SomeField;
 
-		private int _age;
+		private int age;
 
 		public int Age
 		{
 			get
 			{
-				return (_age);
+				return (age);
 			}
 			set
 			{
 				if ((value >= 0) && (value <= 100))
 				{
-					_age = value;
+					age = value;
 				}
 			}
 		}
@@ -35,24 +35,24 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			//oPerson.SomeField
+			//person.SomeField
 
-			//oPerson._age = 30;
-			oPerson.Age = 30;
+			//person.age = 30;
+			person.Age = 30;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
-			//oPerson._age = -20;
-			oPerson.Age = -20;
+			//person.age = -20;
+			person.Age = -20;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
-			//oPerson._age = 5000;
-			oPerson.Age = 5000;
+			//person.age = 5000;
+			person.Age = 5000;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

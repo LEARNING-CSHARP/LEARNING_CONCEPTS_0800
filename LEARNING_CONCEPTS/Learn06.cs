@@ -10,22 +10,28 @@
 		//public int Age;
 
 		// Traditional
-		//private int _age;
+		//private int age;
 
 		//public int Age
 		//{
 		//	get
 		//	{
-		//		return (_age);
+		//		return (age);
 		//	}
 		//	set
 		//	{
-		//		_age = value;
+		//		age = value;
 		//	}
 		//}
 
 		// Modern
 		public int Age { get; set; }
+
+		// Snippet: Prop
+		public string FirstName { get; set; }
+
+		//public int SomeProperty1 { set; }
+		public int SomeProperty2 { get; }
 
 		public void ShowInfo()
 		{
@@ -37,9 +43,9 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			oPerson.Age = 30;
+			person.Age = 30;
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

@@ -6,30 +6,30 @@
 		{
 		}
 
-		private int _age;
+		private int age;
 
 		public int Age
 		{
 			get
 			{
-				return (_age);
+				return (age);
 			}
 			set
 			{
 				if ((value >= 0) && (value <= 100))
 				{
-					_age = value;
+					age = value;
 				}
 			}
 		}
 
 		public void DoSomething(int age)
 		{
-			//_age = age;
+			//this.age = age;
 
 			//if ((age >= 0) && (age <= 100))
 			//{
-			//	_age = age;
+			//	this.age = age;
 			//}
 
 			Age = age;
@@ -40,12 +40,13 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			oPerson.Age = 30;
-			oPerson.Age = -20;
-			oPerson.DoSomething(40);
-			oPerson.DoSomething(-30);
+			//person.Age = 30;
+			person.Age = 30;
+			person.Age = -20;
+			person.DoSomething(40);
+			person.DoSomething(-30);
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

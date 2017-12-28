@@ -6,7 +6,7 @@
 		{
 		}
 
-		private int _age;
+		private int age;
 
 		/// <summary>
 		/// Read And Write Property = Property
@@ -15,15 +15,15 @@
 		{
 			get
 			{
-				return (_age);
+				return (age);
 			}
 			set
 			{
-				_age = value;
+				age = value;
 			}
 		}
 
-		private string _firstName;
+		private string firstName;
 
 		/// <summary>
 		/// Write Only Property
@@ -32,11 +32,11 @@
 		{
 			set
 			{
-				_firstName = value;
+				firstName = value;
 			}
 		}
 
-		private string _lastName;
+		private string lastName;
 
 		/// <summary>
 		/// Read Only Property
@@ -45,11 +45,11 @@
 		{
 			get
 			{
-				return (_lastName);
+				return (lastName);
 			}
 		}
 
-		//private string _fatherName;
+		//private string fatherName;
 
 		// هم چین چیزی نداریم
 		//public string FatherName
@@ -66,7 +66,16 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
+
+			person.Age = 30;
+			int age = person.Age;
+
+			person.FirstName = "Dariush";
+			//string firstName = person.FirstName;
+
+			//person.LastName = "Tasdighi";
+			string lastName = person.LastName;
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

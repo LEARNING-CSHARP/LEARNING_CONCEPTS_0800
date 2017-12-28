@@ -6,24 +6,24 @@
 		{
 		}
 
-		private int _age;
+		private int age;
 
 		public int Age
 		{
 			get
 			{
-				return (_age);
+				return (age);
 			}
 			set
 			{
-				_age = value;
+				age = value;
 			}
 		}
 
 		public void DoSomething()
 		{
 			Age = 30;
-			_age = 30;
+			age = 30;
 		}
 	}
 
@@ -31,10 +31,10 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			//oPerson._age = 30;
-			oPerson.Age = 30;
+			//person.age = 30;
+			person.Age = 30;
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

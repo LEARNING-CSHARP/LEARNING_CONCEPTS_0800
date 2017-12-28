@@ -2,29 +2,25 @@
 {
 	public class Person
 	{
-		public Person()
+		public Person(int salary)
 		{
+			//this.salary = salary;
+
+			Salary = salary;
 		}
 
-		private int _salary;
+		private int salary;
 
 		public int Salary
 		{
 			get
 			{
-				return (_salary);
+				return (salary);
 			}
 			private set
 			{
-				_salary = value;
+				salary = value;
 			}
-		}
-
-		public void DoSomething(int salary)
-		{
-			//_salary = salary;
-
-			Salary = salary;
 		}
 	}
 
@@ -32,9 +28,9 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person(1000000);
 
-			//oPerson.Salary = 1000;
+			person.Salary = 2000000;
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

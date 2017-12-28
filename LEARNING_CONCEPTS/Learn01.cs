@@ -18,19 +18,19 @@
 	{
 		static void Main(string[] args)
 		{
-			Person oPerson = new Person();
+			Person person = new Person();
 
-			oPerson.Age = 30;
+			person.Age = 30;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
-			oPerson.Age = -20;
+			person.Age = -20;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
-			oPerson.Age = 5000;
+			person.Age = 5000;
 
-			oPerson.ShowInfo();
+			person.ShowInfo();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

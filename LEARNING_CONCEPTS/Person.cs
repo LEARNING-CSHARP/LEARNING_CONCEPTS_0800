@@ -17,7 +17,7 @@
 		/// <summary>
 		/// سن
 		/// </summary>
-		private int _age;
+		private int age;
 
 		/// <summary>
 		/// سن
@@ -26,13 +26,13 @@
 		{
 			get
 			{
-				return (_age);
+				return (age);
 			}
 			set
 			{
 				if ((value >= 0) && (value <= 100))
 				{
-					_age = value;
+					age = value;
 				}
 			}
 		}
@@ -40,7 +40,7 @@
 		/// <summary>
 		/// حقوق
 		/// </summary>
-		private int _salary;
+		private int salary;
 
 		/// <summary>
 		/// حقوق
@@ -49,34 +49,28 @@
 		{
 			get
 			{
-				return (_salary);
+				return (salary);
 			}
 			private set
 			{
-				if (_salary >= 0)
+				if (salary >= 0)
 				{
-					_salary = value;
+					salary = value;
 				}
 			}
 		}
 
-		///// <summary>
-		///// نام
-		///// </summary>
-		//private string _firstName;
+		//private string firstName;
 
-		///// <summary>
-		///// نام
-		///// </summary>
 		//public string FirstName
 		//{
 		//	get
 		//	{
-		//		return (_firstName);
+		//		return (firstName);
 		//	}
 		//	set
 		//	{
-		//		_firstName = value;
+		//		firstName = value;
 		//	}
 		//}
 
@@ -85,23 +79,17 @@
 		/// </summary>
 		public string FirstName { get; set; }
 
-		///// <summary>
-		///// نام خانوادگی
-		///// </summary>
-		//private string _lastName;
+		//private string lastName;
 
-		///// <summary>
-		///// نام خانوادگی
-		///// </summary>
 		//public string LastName
 		//{
 		//	get
 		//	{
-		//		return (_lastName);
+		//		return (lastName);
 		//	}
 		//	set
 		//	{
-		//		_lastName = value;
+		//		lastName = value;
 		//	}
 		//}
 
@@ -117,11 +105,10 @@
 		{
 			get
 			{
-				string strFullName =
-					string.Format("{0} {1}",
-					FirstName, LastName).Trim();
+				string fullName =
+					$"{ FirstName } { LastName }";
 
-				return (strFullName);
+				return (fullName);
 			}
 		}
 
@@ -130,8 +117,13 @@
 		/// </summary>
 		public void ShowInfo()
 		{
-			System.Console.WriteLine
-				("I'm {0} and {1} years and I catch {2}$.", FullName, Age, Salary);
+			//string message =
+			//	$"I'm { FullName } and { age } years old and I make { salary }$";
+
+			string message =
+				$"I'm { FullName } and { Age } years old and I make { Salary }$";
+
+			System.Console.WriteLine(message);
 		}
 	}
 }
