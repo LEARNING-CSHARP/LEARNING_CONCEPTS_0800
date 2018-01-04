@@ -53,7 +53,7 @@
 			}
 			private set
 			{
-				if (salary >= 0)
+				if (value >= 0)
 				{
 					salary = value;
 				}
