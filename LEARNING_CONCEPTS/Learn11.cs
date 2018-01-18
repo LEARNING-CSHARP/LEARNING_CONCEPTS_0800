@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS
+﻿namespace LEARNING_CONCEPTS.Learn11
 {
 	/// <summary>
 	/// کلاس شخص
@@ -14,6 +14,7 @@
 			Salary = salary;
 		}
 
+		#region Age Property
 		/// <summary>
 		/// سن
 		/// </summary>
@@ -36,7 +37,9 @@
 				}
 			}
 		}
+		#endregion /Age Property
 
+		#region Salary Property
 		/// <summary>
 		/// حقوق
 		/// </summary>
@@ -59,6 +62,7 @@
 				}
 			}
 		}
+		#endregion /Salary Property
 
 		//private string firstName;
 
@@ -113,7 +117,7 @@
 		}
 
 		/// <summary>
-		/// تابع نمایش اطلاعات شخص
+		/// با استفاده از این تابع اطلاعات شخص به طور کامل نمایش داده می‌شود
 		/// </summary>
 		public void ShowInfo()
 		{
@@ -124,6 +128,17 @@
 				$"I'm { FullName } and { Age } years old and I make { Salary }$";
 
 			System.Console.WriteLine(message);
+		}
+	}
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Person person = new Person(1000000);
+
+			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.ReadLine();
 		}
 	}
 }

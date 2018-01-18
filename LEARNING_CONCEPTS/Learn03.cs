@@ -23,7 +23,7 @@
 
 		public void ShowInfo()
 		{
-			System.Console.WriteLine("I'm {0} years old.", GetAge());
+			System.Console.WriteLine($"I'm { GetAge() } years old.");
 		}
 	}
 
@@ -33,17 +33,14 @@
 		{
 			Person person = new Person();
 
-			//person.age = 30;
 			person.SetAge(30);
 
 			person.ShowInfo();
 
-			//person.age = -20;
 			person.SetAge(-20);
 
 			person.ShowInfo();
 
-			//person.age = 5000;
 			person.SetAge(5000);
 
 			person.ShowInfo();

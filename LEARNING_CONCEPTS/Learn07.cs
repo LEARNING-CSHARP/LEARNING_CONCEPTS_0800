@@ -22,8 +22,8 @@
 
 		public void DoSomething()
 		{
-			Age = 30;
-			age = 30;
+			age = 30; // Field قطعا و همیشه از
+			Age = 30; // Property قطعا و همیشه از
 		}
 	}
 

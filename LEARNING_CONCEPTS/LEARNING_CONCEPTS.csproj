@@ -54,7 +54,7 @@
     <Compile Include="Learn03.cs" />
     <Compile Include="Learn02.cs" />
     <Compile Include="Learn01.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Learn11.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

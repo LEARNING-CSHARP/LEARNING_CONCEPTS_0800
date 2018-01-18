@@ -58,7 +58,7 @@
 
 		public void ShowInfo()
 		{
-			System.Console.WriteLine("I'm {0} years old.", Age);
+			System.Console.WriteLine($"I'm { Age } years old.");
 		}
 	}
 

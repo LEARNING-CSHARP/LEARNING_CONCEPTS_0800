@@ -27,7 +27,7 @@
 
 		public void ShowInfo()
 		{
-			System.Console.WriteLine("I'm {0} years old.", Age);
+			System.Console.WriteLine($"I'm { Age } years old.");
 		}
 	}
 
@@ -39,17 +39,14 @@
 
 			//person.SomeField
 
-			//person.age = 30;
 			person.Age = 30;
 
 			person.ShowInfo();
 
-			//person.age = -20;
 			person.Age = -20;
 
 			person.ShowInfo();
 
-			//person.age = 5000;
 			person.Age = 5000;
 
 			person.ShowInfo();

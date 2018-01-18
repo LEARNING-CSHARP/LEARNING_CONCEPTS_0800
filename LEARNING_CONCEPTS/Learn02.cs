@@ -10,17 +10,23 @@
 
 		public void SetAge(int age)
 		{
+			//age = age;
+
 			this.age = age;
 		}
 
 		public int GetAge()
 		{
+			//return (this.age);
+
 			return (age);
 		}
 
 		public void ShowInfo()
 		{
-			System.Console.WriteLine("I'm {0} years old.", age);
+			//System.Console.WriteLine($"I'm { age } years old.");
+
+			System.Console.WriteLine($"I'm { GetAge() } years old.");
 		}
 	}
 
