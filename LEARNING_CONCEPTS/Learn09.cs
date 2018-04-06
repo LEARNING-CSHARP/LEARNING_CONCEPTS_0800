@@ -4,7 +4,7 @@
 	{
 		public Person(int salary)
 		{
-			//this.salary = salary;
+			this.salary = salary;
 
 			//Salary = salary;
 		}
