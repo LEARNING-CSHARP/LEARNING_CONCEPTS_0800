@@ -6,7 +6,7 @@
 		{
 			this.salary = salary;
 
-			//Salary = salary;
+			//Salary = salary; // Compile Error!
 		}
 
 		private int salary;

@@ -72,9 +72,9 @@
 			int age = person.Age;
 
 			person.FirstName = "Dariush";
-			//string firstName = person.FirstName;
+			//string firstName = person.FirstName; // Compile Error!
 
-			//person.LastName = "Tasdighi";
+			//person.LastName = "Tasdighi"; // Compile Error!
 			string lastName = person.LastName;
 
 			System.Console.Write("Press [ENTER] To Exit...");
