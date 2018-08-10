@@ -43,10 +43,14 @@
 			Person person = new Person();
 
 			//person.Age = 30;
+
 			person.Age = 30;
 			person.Age = -20;
-			person.DoSomething(40);
-			person.DoSomething(-30);
+			person.Age = 5000;
+
+			person.DoSomething(30);
+			person.DoSomething(-20);
+			person.DoSomething(5000);
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();
