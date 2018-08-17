@@ -11,6 +11,9 @@
 
 		private int salary;
 
+		/// <summary>
+		/// Read Only Property
+		/// </summary>
 		public int Salary
 		{
 			get
@@ -25,6 +28,8 @@
 		static void Main(string[] args)
 		{
 			Person person = new Person(1000000);
+
+			//person.Salary = 2000000; // Compile Error!
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

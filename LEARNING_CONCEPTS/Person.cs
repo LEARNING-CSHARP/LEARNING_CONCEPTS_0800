@@ -102,17 +102,19 @@
 		/// </summary>
 		public string LastName { get; set; }
 
+		// نوابغ توجه داشته باشند که به هیچ عنوان نیازی به این فیلد نیست
+		//private string fullName;
+
 		/// <summary>
-		/// نام و نام خانوادگی
 		/// </summary>
 		public string FullName
 		{
 			get
 			{
-				string fullName =
+				string result =
 					$"{ FirstName } { LastName }";
 
-				return (fullName);
+				return (result);
 			}
 		}
 
@@ -121,24 +123,10 @@
 		/// </summary>
 		public void ShowInfo()
 		{
-			//string message =
-			//	$"I'm { FullName } and { age } years old and I make { salary }$";
-
 			string message =
 				$"I'm { FullName } and { Age } years old and I make { Salary }$";
 
 			System.Console.WriteLine(message);
-		}
-	}
-
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Person person = new Person(1000000);
-
-			System.Console.Write("Press [ENTER] To Exit...");
-			System.Console.ReadLine();
 		}
 	}
 }
