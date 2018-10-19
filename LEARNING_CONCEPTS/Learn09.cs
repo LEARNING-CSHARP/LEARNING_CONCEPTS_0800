@@ -18,7 +18,7 @@
 		{
 			get
 			{
-				return (salary);
+				return salary;
 			}
 		}
 	}

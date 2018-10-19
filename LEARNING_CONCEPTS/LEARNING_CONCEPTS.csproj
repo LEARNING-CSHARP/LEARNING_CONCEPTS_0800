@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Learn11.cs" />
     <Compile Include="Learn10.cs" />
     <Compile Include="Learn09.cs" />
     <Compile Include="Learn08.cs" />

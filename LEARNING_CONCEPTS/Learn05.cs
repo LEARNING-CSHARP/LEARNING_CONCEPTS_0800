@@ -15,7 +15,7 @@
 		{
 			get
 			{
-				return (age);
+				return age;
 			}
 			set
 			{
@@ -45,7 +45,7 @@
 		{
 			get
 			{
-				return (lastName);
+				return lastName;
 			}
 		}
 

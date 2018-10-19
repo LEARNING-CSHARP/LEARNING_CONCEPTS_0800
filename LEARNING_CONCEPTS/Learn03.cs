@@ -18,7 +18,7 @@
 
 		public int GetAge()
 		{
-			return (age);
+			return age;
 		}
 
 		public void ShowInfo()

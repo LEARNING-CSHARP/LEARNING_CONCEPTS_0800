@@ -17,9 +17,9 @@
 
 		public int GetAge()
 		{
-			//return (this.age);
+			//return this.age;
 
-			return (age);
+			return age;
 		}
 
 		public void ShowInfo()

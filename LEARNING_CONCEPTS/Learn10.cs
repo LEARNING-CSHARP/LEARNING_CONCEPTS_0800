@@ -15,7 +15,7 @@
 		{
 			get
 			{
-				return (salary);
+				return salary;
 			}
 			private set
 			{

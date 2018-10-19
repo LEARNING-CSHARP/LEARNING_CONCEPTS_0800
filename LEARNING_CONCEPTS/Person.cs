@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn11
+﻿namespace LEARNING_CONCEPTS.Learn12
 {
 	/// <summary>
 	/// کلاس شخص
@@ -27,7 +27,7 @@
 		{
 			get
 			{
-				return (age);
+				return age;
 			}
 			set
 			{
@@ -52,7 +52,7 @@
 		{
 			get
 			{
-				return (salary);
+				return salary;
 			}
 			private set
 			{
@@ -70,7 +70,7 @@
 		//{
 		//	get
 		//	{
-		//		return (firstName);
+		//		return firstName;
 		//	}
 		//	set
 		//	{
@@ -89,7 +89,7 @@
 		//{
 		//	get
 		//	{
-		//		return (lastName);
+		//		return lastName;
 		//	}
 		//	set
 		//	{
@@ -114,7 +114,7 @@
 				string result =
 					$"{ FirstName } { LastName }";
 
-				return (result);
+				return result;
 			}
 		}
 
