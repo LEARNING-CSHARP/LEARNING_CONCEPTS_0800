@@ -8,7 +8,7 @@
 
 		public int Age;
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"I'm { Age } years old.");
 		}
@@ -22,15 +22,15 @@
 
 			person.Age = 30;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.Age = -20;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.Age = 5000;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

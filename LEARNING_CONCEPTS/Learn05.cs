@@ -6,6 +6,9 @@
 		{
 		}
 
+		// دستور ذیل مطلقا توصیه نمی‌شود
+		//public int Age;
+
 		private int age;
 
 		/// <summary>
@@ -56,7 +59,7 @@
 		//{
 		//}
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"I'm { Age } years old.");
 		}

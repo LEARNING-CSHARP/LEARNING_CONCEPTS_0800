@@ -106,6 +106,7 @@
 		//private string fullName;
 
 		/// <summary>
+		/// نام و نام خانوادگی
 		/// </summary>
 		public string FullName
 		{
@@ -121,7 +122,7 @@
 		/// <summary>
 		/// با استفاده از این تابع اطلاعات شخص به طور کامل نمایش داده می‌شود
 		/// </summary>
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			string message =
 				$"I'm { FullName } and { Age } years old and I make { Salary }$";

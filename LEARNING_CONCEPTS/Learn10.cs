@@ -22,6 +22,8 @@
 				salary = value;
 			}
 		}
+
+		//public int Salary { get; private set; }
 	}
 
 	class Program

@@ -8,6 +8,9 @@
 
 		public int SomeField;
 
+		// دستور ذیل مطلقا توصیه نمی‌شود
+		//public int Age;
+
 		private int age;
 
 		public int Age
@@ -25,7 +28,7 @@
 			}
 		}
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"I'm { Age } years old.");
 		}
@@ -40,16 +43,17 @@
 			//person.SomeField
 
 			person.Age = 30;
+			int googooli = person.Age;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.Age = -20;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.Age = 5000;
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

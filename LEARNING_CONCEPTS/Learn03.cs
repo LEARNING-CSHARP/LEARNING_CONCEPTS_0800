@@ -6,6 +6,9 @@
 		{
 		}
 
+		// دستور ذیل مطلقا توصیه نمی‌شود
+		//public int Age;
+
 		private int age;
 
 		public void SetAge(int age)
@@ -21,7 +24,7 @@
 			return age;
 		}
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"I'm { GetAge() } years old.");
 		}
@@ -35,15 +38,15 @@
 
 			person.SetAge(30);
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.SetAge(-20);
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			person.SetAge(5000);
 
-			person.ShowInfo();
+			person.ShowInformation();
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

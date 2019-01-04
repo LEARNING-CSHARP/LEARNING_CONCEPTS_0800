@@ -27,13 +27,13 @@
 		// Modern
 		public int Age { get; set; }
 
-		// Snippet: Prop
+		// Snippet: Prop, PropFull
 		public string FirstName { get; set; }
 
 		//public int SomeProperty1 { set; }
 		public int SomeProperty2 { get; }
 
-		public void ShowInfo()
+		public void ShowInformation()
 		{
 			System.Console.WriteLine($"I'm { Age } years old.");
 		}
