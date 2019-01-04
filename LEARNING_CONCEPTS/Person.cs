@@ -5,6 +5,12 @@
 	/// </summary>
 	public class Person
 	{
+		// سوتی‌ها
+		// constructor
+		// /constructor
+		// نباید خالی باشد
+
+		#region Constructor(s)
 		/// <summary>
 		/// سازنده کلاس شخص
 		/// </summary>
@@ -13,6 +19,7 @@
 		{
 			Salary = salary;
 		}
+		#endregion /Constructor(s)
 
 		#region Age Property
 		/// <summary>
