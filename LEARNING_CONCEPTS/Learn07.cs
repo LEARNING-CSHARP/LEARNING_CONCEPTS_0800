@@ -36,7 +36,7 @@
 			person.Age = 30;
 			//person.age = 30;
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

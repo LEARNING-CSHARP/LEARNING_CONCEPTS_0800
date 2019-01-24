@@ -15,13 +15,18 @@
 		{
 			get
 			{
+				// حواسم نبوده
 				return Age;
+
+				// باید دستور ذیل نوشته می‌شد
+				//return age;
 			}
 			set
 			{
 				// حواسم نبوده
 				Age = value;
 
+				// باید دستور ذیل نوشته می‌شد
 				//age = value;
 			}
 		}
@@ -31,7 +36,7 @@
 	{
 		static void Main(string[] args)
 		{
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

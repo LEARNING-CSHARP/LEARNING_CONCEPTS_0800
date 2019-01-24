@@ -30,7 +30,10 @@
 
 		public void ShowInformation()
 		{
-			System.Console.WriteLine($"I'm { Age } years old.");
+			string message =
+				$"I'm { Age } years old.";
+
+			System.Console.WriteLine(message);
 		}
 	}
 
@@ -55,7 +58,7 @@
 
 			person.ShowInformation();
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

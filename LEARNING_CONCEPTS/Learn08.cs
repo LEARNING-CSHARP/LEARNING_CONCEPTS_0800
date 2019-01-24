@@ -52,7 +52,7 @@
 			person.DoSomething(-20);
 			person.DoSomething(5000);
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

@@ -34,7 +34,7 @@
 
 			//person.Salary = 2000000; // Compile Error!
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}

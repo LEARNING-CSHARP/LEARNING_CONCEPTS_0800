@@ -11,6 +11,11 @@
 
 		private int age;
 
+		public int GetAge()
+		{
+			return age;
+		}
+
 		public void SetAge(int age)
 		{
 			if ((age >= 0) && (age <= 100))
@@ -19,14 +24,12 @@
 			}
 		}
 
-		public int GetAge()
-		{
-			return age;
-		}
-
 		public void ShowInformation()
 		{
-			System.Console.WriteLine($"I'm { GetAge() } years old.");
+			string message =
+				$"I'm { GetAge() } years old.";
+
+			System.Console.WriteLine(message);
 		}
 	}
 
@@ -48,7 +51,7 @@
 
 			person.ShowInformation();
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}
