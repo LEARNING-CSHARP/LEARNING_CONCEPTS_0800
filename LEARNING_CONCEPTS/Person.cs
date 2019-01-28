@@ -10,7 +10,7 @@
 		// /constructor
 		// نباید خالی باشد
 
-		#region Constructor(s)
+		#region Constructor
 		/// <summary>
 		/// سازنده کلاس شخص
 		/// </summary>
@@ -19,7 +19,7 @@
 		{
 			Salary = salary;
 		}
-		#endregion /Constructor(s)
+		#endregion /Constructor
 
 		#region Age Property
 		/// <summary>
@@ -120,7 +120,7 @@
 			get
 			{
 				string result =
-					$"{ FirstName } { LastName }";
+					$"{ FirstName } { LastName }".Trim();
 
 				return result;
 			}
