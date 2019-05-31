@@ -85,10 +85,12 @@
 		//	}
 		//}
 
+		#region FirstName Property
 		/// <summary>
 		/// نام
 		/// </summary>
 		public string FirstName { get; set; }
+		#endregion /FirstName Property
 
 		//private string lastName;
 
@@ -104,14 +106,18 @@
 		//	}
 		//}
 
+		#region LastName Property
 		/// <summary>
 		/// نام خانوادگی
 		/// </summary>
 		public string LastName { get; set; }
+		#endregion /LastName Property
 
+		// های محاسباتی می‌باشد Property جزء FullName
 		// نوابغ توجه داشته باشند که به هیچ عنوان نیازی به این فیلد نیست
 		//private string fullName;
 
+		#region FullName Property
 		/// <summary>
 		/// نام و نام خانوادگی
 		/// </summary>
@@ -125,7 +131,9 @@
 				return result;
 			}
 		}
+		#endregion /FullName Property
 
+		#region ShowInformation Method
 		/// <summary>
 		/// با استفاده از این تابع اطلاعات شخص به طور کامل نمایش داده می‌شود
 		/// </summary>
@@ -136,5 +144,6 @@
 
 			System.Console.WriteLine(message);
 		}
+		#endregion /ShowInformation Method
 	}
 }

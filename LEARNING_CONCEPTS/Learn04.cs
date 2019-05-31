@@ -43,6 +43,8 @@
 		{
 			Person person = new Person();
 
+			person.ShowInformation();
+
 			//person.SomeField
 
 			person.Age = 30;

@@ -43,6 +43,8 @@
 		{
 			Person person = new Person();
 
+			person.ShowInformation();
+
 			//person.age = 30; // Compile Error!
 			person.SetAge(30);
 

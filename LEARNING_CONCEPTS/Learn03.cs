@@ -45,6 +45,8 @@
 		{
 			Person person = new Person();
 
+			person.ShowInformation();
+
 			person.SetAge(30);
 
 			person.ShowInformation();

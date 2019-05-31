@@ -23,6 +23,8 @@
 		{
 			Person person = new Person();
 
+			person.ShowInformation();
+
 			person.Age = 30;
 
 			person.ShowInformation();

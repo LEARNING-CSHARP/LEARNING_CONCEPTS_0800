@@ -38,7 +38,7 @@
 			string message =
 				$"I'm { Age } years old.";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(message;
 		}
 	}
 
