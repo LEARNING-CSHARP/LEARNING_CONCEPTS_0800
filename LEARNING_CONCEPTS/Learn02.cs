@@ -11,6 +11,9 @@
 
 		private int age;
 
+		/// <summary>
+		/// Getter
+		/// </summary>
 		public int GetAge()
 		{
 			//return this.age;
@@ -18,9 +21,15 @@
 			return age;
 		}
 
+		/// <summary>
+		/// Setter
+		/// </summary>
 		public void SetAge(int age)
 		{
 			//age = age;
+
+			// در استاندارد قدیمی
+			//_age = age;
 
 			this.age = age;
 		}

@@ -16,18 +16,18 @@
 			get
 			{
 				// حواسم نبوده
-				return Age;
+				//return Age;
 
 				// باید دستور ذیل نوشته می‌شد
-				//return age;
+				return age;
 			}
 			set
 			{
 				// حواسم نبوده
-				Age = value;
+				//Age = value;
 
 				// باید دستور ذیل نوشته می‌شد
-				//age = value;
+				age = value;
 			}
 		}
 	}

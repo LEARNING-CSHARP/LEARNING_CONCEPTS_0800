@@ -11,17 +11,11 @@
 
 		private int age;
 
-		/// <summary>
-		/// Getter
-		/// </summary>
 		public int GetAge()
 		{
 			return age;
 		}
 
-		/// <summary>
-		/// Setter
-		/// </summary>
 		public void SetAge(int age)
 		{
 			if ((age >= 0) && (age <= 100))
