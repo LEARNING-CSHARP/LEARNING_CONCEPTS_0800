@@ -23,13 +23,17 @@
 		public void DoSomething()
 		{
 			age = 30; // Field آیا قطعا و همیشه از
-			Age = 30; // Property آیا قطعا و همیشه از 
+			Age = 30; // Property آیا قطعا و همیشه از
 		}
 	}
 
-	class Program
+	public static class Program
 	{
-		static void Main(string[] args)
+		static Program()
+		{
+		}
+
+		public static void Main()
 		{
 			Person person = new Person();
 

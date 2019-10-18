@@ -6,6 +6,7 @@
 		{
 		}
 
+		#region Age Property
 		private int age;
 
 		/// <summary>
@@ -30,11 +31,16 @@
 				age = value;
 			}
 		}
+		#endregion /Age Property
 	}
 
-	class Program
+	public static class Program
 	{
-		static void Main(string[] args)
+		static Program()
+		{
+		}
+
+		public static void Main()
 		{
 			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
