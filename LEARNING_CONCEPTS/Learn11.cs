@@ -2,15 +2,20 @@
 {
 	public class Person
 	{
+		#region Constructor
 		public Person()
 		{
 		}
+		#endregion /Constructor
 
 		#region Age Property
+		/// <summary>
+		/// سن شخص
+		/// </summary>
 		private int age;
 
 		/// <summary>
-		/// فاجعه
+		/// سن شخص - نمایش یک فاجعه در اثر یک بی‌دقتی
 		/// </summary>
 		public int Age
 		{
@@ -42,6 +47,10 @@
 
 		public static void Main()
 		{
+			Person person = new Person();
+
+			person.Age = 20;
+
 			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}

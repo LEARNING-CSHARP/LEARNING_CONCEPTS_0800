@@ -31,6 +31,7 @@
 		public string FirstName { get; set; }
 
 		//public int SomeProperty1 { set; }
+
 		public int SomeProperty2 { get; }
 
 		public void ShowInformation()

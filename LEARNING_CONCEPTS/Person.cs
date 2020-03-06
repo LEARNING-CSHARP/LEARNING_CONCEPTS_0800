@@ -125,6 +125,10 @@
 		{
 			get
 			{
+				// دستور ذیل حرفه‌ای نیست
+				//string result =
+				//	$"{ firstName } { lastName }".Trim();
+
 				string result =
 					$"{ FirstName } { LastName }".Trim();
 
@@ -139,6 +143,10 @@
 		/// </summary>
 		public void ShowInformation()
 		{
+			// دستور ذیل حرفه‌ای نیست
+			//string message =
+			//	$"I'm { FullName } and { age } years old and I make { salary }$";
+
 			string message =
 				$"I'm { FullName } and { Age } years old and I make { Salary }$";
 
