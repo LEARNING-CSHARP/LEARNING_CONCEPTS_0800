@@ -4,22 +4,22 @@
 	{
 		public Person(int salary)
 		{
-			//this.salary = salary;
+			//_salary = salary;
 
 			Salary = salary;
 		}
 
-		private int salary;
+		private int _salary;
 
 		public int Salary
 		{
 			get
 			{
-				return salary;
+				return _salary;
 			}
 			private set
 			{
-				salary = value;
+				_salary = value;
 			}
 		}
 

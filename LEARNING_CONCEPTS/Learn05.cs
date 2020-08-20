@@ -9,7 +9,7 @@
 		// دستور ذیل مطلقا توصیه نمی‌شود
 		//public int Age;
 
-		private int age;
+		private int _age;
 
 		/// <summary>
 		/// Read And Write Property = Property
@@ -18,15 +18,15 @@
 		{
 			get
 			{
-				return age;
+				return _age;
 			}
 			set
 			{
-				age = value;
+				_age = value;
 			}
 		}
 
-		private string firstName;
+		private string _firstName;
 
 		/// <summary>
 		/// Write Only Property
@@ -35,11 +35,11 @@
 		{
 			set
 			{
-				firstName = value;
+				_firstName = value;
 			}
 		}
 
-		private string lastName;
+		private string _lastName;
 
 		/// <summary>
 		/// Read Only Property
@@ -48,7 +48,7 @@
 		{
 			get
 			{
-				return lastName;
+				return _lastName;
 			}
 		}
 

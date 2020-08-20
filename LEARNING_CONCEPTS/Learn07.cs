@@ -6,23 +6,23 @@
 		{
 		}
 
-		private int age;
+		private int _age;
 
 		public int Age
 		{
 			get
 			{
-				return age;
+				return _age;
 			}
 			set
 			{
-				age = value;
+				_age = value;
 			}
 		}
 
 		public void DoSomething()
 		{
-			age = 30; // Field آیا قطعا و همیشه از
+			_age = 30; // Field آیا قطعا و همیشه از
 			Age = 30; // Property آیا قطعا و همیشه از
 		}
 	}

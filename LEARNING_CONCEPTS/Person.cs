@@ -25,7 +25,7 @@
 		/// <summary>
 		/// سن
 		/// </summary>
-		private int age;
+		private int _age;
 
 		/// <summary>
 		/// سن
@@ -34,13 +34,13 @@
 		{
 			get
 			{
-				return age;
+				return _age;
 			}
 			set
 			{
 				if ((value >= 0) && (value <= 100))
 				{
-					age = value;
+					_age = value;
 				}
 			}
 		}
@@ -50,7 +50,7 @@
 		/// <summary>
 		/// حقوق
 		/// </summary>
-		private int salary;
+		private int _salary;
 
 		/// <summary>
 		/// حقوق
@@ -59,29 +59,29 @@
 		{
 			get
 			{
-				return salary;
+				return _salary;
 			}
 			private set
 			{
 				if (value >= 0)
 				{
-					salary = value;
+					_salary = value;
 				}
 			}
 		}
 		#endregion /Salary Property
 
-		//private string firstName;
+		//private string _firstName;
 
 		//public string FirstName
 		//{
 		//	get
 		//	{
-		//		return firstName;
+		//		return _firstName;
 		//	}
 		//	set
 		//	{
-		//		firstName = value;
+		//		_firstName = value;
 		//	}
 		//}
 
@@ -92,17 +92,17 @@
 		public string FirstName { get; set; }
 		#endregion /FirstName Property
 
-		//private string lastName;
+		//private string _lastName;
 
 		//public string LastName
 		//{
 		//	get
 		//	{
-		//		return lastName;
+		//		return _lastName;
 		//	}
 		//	set
 		//	{
-		//		lastName = value;
+		//		_lastName = value;
 		//	}
 		//}
 
@@ -115,7 +115,7 @@
 
 		// های محاسباتی می‌باشد Property جزء FullName
 		// نوابغ توجه داشته باشند که به هیچ عنوان نیازی به این فیلد نیست
-		//private string fullName;
+		//private string _fullName;
 
 		#region FullName Property
 		/// <summary>

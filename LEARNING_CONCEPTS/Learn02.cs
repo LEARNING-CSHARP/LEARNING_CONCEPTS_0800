@@ -9,16 +9,14 @@
 		// دستور ذیل مطلقا توصیه نمی‌شود
 		//public int Age;
 
-		private int age;
+		private int _age;
 
 		/// <summary>
 		/// Getter
 		/// </summary>
 		public int GetAge()
 		{
-			//return this.age;
-
-			return age;
+			return _age;
 		}
 
 		/// <summary>
@@ -26,18 +24,13 @@
 		/// </summary>
 		public void SetAge(int age)
 		{
-			//age = age;
-
-			// در استاندارد قدیمی
-			//_age = age;
-
-			this.age = age;
+			_age = age;
 		}
 
 		public void ShowInformation()
 		{
 			//string message =
-			//	$"I'm { age } years old.";
+			//	$"I'm { _age } years old.";
 
 			string message =
 				$"I'm { GetAge() } years old.";
@@ -58,17 +51,17 @@
 
 			person.ShowInformation();
 
-			//person.age = 30; // Compile Error!
+			//person._age = 30; // Compile Error!
 			person.SetAge(30);
 
 			person.ShowInformation();
 
-			//person.age = -20; // Compile Error!
+			//person._age = -20; // Compile Error!
 			person.SetAge(-20);
 
 			person.ShowInformation();
 
-			//person.age = 5000; // Compile Error!
+			//person._age = 5000; // Compile Error!
 			person.SetAge(5000);
 
 			person.ShowInformation();

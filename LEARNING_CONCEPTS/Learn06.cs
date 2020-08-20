@@ -10,17 +10,17 @@
 		//public int Age;
 
 		// Traditional
-		//private int age;
+		//private int _age;
 
 		//public int Age
 		//{
 		//	get
 		//	{
-		//		return age;
+		//		return _age;
 		//	}
 		//	set
 		//	{
-		//		age = value;
+		//		_age = value;
 		//	}
 		//}
 

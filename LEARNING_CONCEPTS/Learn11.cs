@@ -2,17 +2,20 @@
 {
 	public class Person
 	{
-		#region Constructor
+		#region Default Constructor
+		/// <summary>
+		/// سازنده پیش‌فرض کلاس
+		/// </summary>
 		public Person()
 		{
 		}
-		#endregion /Constructor
+		#endregion /Default Constructor
 
 		#region Age Property
 		/// <summary>
 		/// سن شخص
 		/// </summary>
-		private int age;
+		private int _age;
 
 		/// <summary>
 		/// سن شخص - نمایش یک فاجعه در اثر یک بی‌دقتی
@@ -25,7 +28,7 @@
 				//return Age;
 
 				// باید دستور ذیل نوشته می‌شد
-				return age;
+				return _age;
 			}
 			set
 			{
@@ -33,7 +36,7 @@
 				//Age = value;
 
 				// باید دستور ذیل نوشته می‌شد
-				age = value;
+				_age = value;
 			}
 		}
 		#endregion /Age Property

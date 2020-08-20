@@ -9,18 +9,18 @@
 		// دستور ذیل مطلقا توصیه نمی‌شود
 		//public int Age;
 
-		private int age;
+		private int _age;
 
 		public int GetAge()
 		{
-			return age;
+			return _age;
 		}
 
 		public void SetAge(int age)
 		{
 			if ((age >= 0) && (age <= 100))
 			{
-				this.age = age;
+				_age = age;
 			}
 		}
 

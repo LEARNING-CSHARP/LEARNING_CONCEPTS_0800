@@ -6,19 +6,19 @@
 		{
 		}
 
-		private int age;
+		private int _age;
 
 		public int Age
 		{
 			get
 			{
-				return age;
+				return _age;
 			}
 			set
 			{
 				if ((value >= 0) && (value <= 100))
 				{
-					age = value;
+					_age = value;
 				}
 			}
 		}
@@ -26,13 +26,13 @@
 		public void DoSomething(int age)
 		{
 			// **************************************************
-			//this.age = age;
+			//_age = age;
 			// **************************************************
 
 			// **************************************************
 			//if ((age >= 0) && (age <= 100))
 			//{
-			//	this.age = age;
+			//	_age = age;
 			//}
 			// **************************************************
 

@@ -4,12 +4,12 @@
 	{
 		public Person(int salary)
 		{
-			this.salary = salary;
+			_salary = salary;
 
 			//Salary = salary; // Compile Error!
 		}
 
-		private int salary;
+		private int _salary;
 
 		/// <summary>
 		/// Read Only Property
@@ -18,7 +18,7 @@
 		{
 			get
 			{
-				return salary;
+				return _salary;
 			}
 		}
 	}
