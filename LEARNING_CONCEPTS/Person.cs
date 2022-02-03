@@ -5,11 +5,6 @@
 	/// </summary>
 	public class Person
 	{
-		// سوتی‌ها
-		// constructor
-		// /constructor
-		// نباید خالی باشد
-
 		#region Constructor
 		/// <summary>
 		/// سازنده کلاس شخص
@@ -127,7 +122,7 @@
 			{
 				// دستور ذیل حرفه‌ای نیست
 				//string result =
-				//	$"{ firstName } { lastName }".Trim();
+				//	$"{ _firstName } { _lastName }".Trim();
 
 				string result =
 					$"{ FirstName } { LastName }".Trim();
@@ -145,7 +140,7 @@
 		{
 			// دستور ذیل حرفه‌ای نیست
 			//string message =
-			//	$"I'm { FullName } and { age } years old and I make { salary }$";
+			//	$"I'm { FullName } and { _age } years old and I make { _salary }$";
 
 			string message =
 				$"I'm { FullName } and { Age } years old and I make { Salary }$";

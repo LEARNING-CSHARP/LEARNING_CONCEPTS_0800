@@ -52,7 +52,7 @@
 			//person.SomeField
 
 			person.Age = 30;
-			int googooli = person.Age;
+			int age = person.Age;
 
 			person.ShowInformation();
 

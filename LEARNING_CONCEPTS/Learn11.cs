@@ -2,24 +2,12 @@
 {
 	public class Person
 	{
-		#region Default Constructor
-		/// <summary>
-		/// سازنده پیش‌فرض کلاس
-		/// </summary>
 		public Person()
 		{
 		}
-		#endregion /Default Constructor
 
-		#region Age Property
-		/// <summary>
-		/// سن شخص
-		/// </summary>
 		private int _age;
 
-		/// <summary>
-		/// سن شخص - نمایش یک فاجعه در اثر یک بی‌دقتی
-		/// </summary>
 		public int Age
 		{
 			get
@@ -39,7 +27,6 @@
 				_age = value;
 			}
 		}
-		#endregion /Age Property
 	}
 
 	public static class Program
