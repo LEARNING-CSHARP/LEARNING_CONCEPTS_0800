@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn11
+﻿namespace Learn11
 {
 	public class Person
 	{
@@ -41,7 +41,9 @@
 
 			person.Age = 20;
 
-			System.Console.Write("Press [ENTER] To Exit... ");
+			System.Console.Write
+				(value: "Press [ENTER] To Exit... ");
+
 			System.Console.ReadLine();
 		}
 	}

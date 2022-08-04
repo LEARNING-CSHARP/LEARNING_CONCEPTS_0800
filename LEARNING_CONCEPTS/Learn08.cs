@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn08
+﻿namespace Learn08
 {
 	public class Person
 	{
@@ -16,7 +16,7 @@
 			}
 			set
 			{
-				if ((value >= 0) && (value <= 100))
+				if (value >= 0 && value <= 100)
 				{
 					_age = value;
 				}
@@ -30,7 +30,7 @@
 			// **************************************************
 
 			// **************************************************
-			//if ((age >= 0) && (age <= 100))
+			//if (age >= 0 && age <= 100)
 			//{
 			//	_age = age;
 			//}
@@ -48,20 +48,22 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.Age = 30;
-			person.Age = -20;
-			person.Age = 5000;
+		//	person.Age = 30;
+		//	person.Age = -20;
+		//	person.Age = 5_000;
 
-			person.DoSomething(30);
-			person.DoSomething(-20);
-			person.DoSomething(5000);
+		//	person.DoSomething(30);
+		//	person.DoSomething(-20);
+		//	person.DoSomething(5_000);
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

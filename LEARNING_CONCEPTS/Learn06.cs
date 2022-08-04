@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn06
+﻿namespace Learn06
 {
 	public class Person
 	{
@@ -34,12 +34,42 @@
 
 		public int SomeProperty2 { get; }
 
+		#region Salary Property
+		// **********
+		// **********
+		// **********
+		/// <summary>
+		/// 
+		/// </summary>
+		private int _salary;
+		// **********
+
+		// **********
+		/// <summary>
+		/// 
+		/// </summary>
+		public int Salary
+		{
+			get
+			{
+				return _salary;
+			}
+			set
+			{
+				_salary = value;
+			}
+		}
+		// **********
+		// **********
+		// **********
+		#endregion /Salary Property
+
 		public void ShowInformation()
 		{
 			string message =
-				$"I'm { Age } years old.";
+				$"I'm {Age} years old.";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(value: message);
 		}
 	}
 
@@ -49,14 +79,16 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.Age = 30;
+		//	person.Age = 30;
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

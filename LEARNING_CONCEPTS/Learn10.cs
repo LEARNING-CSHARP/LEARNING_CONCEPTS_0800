@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn10
+﻿namespace Learn10
 {
 	public class Person
 	{
@@ -11,6 +11,9 @@
 
 		private int _salary;
 
+		/// <summary>
+		/// اضافه شد .NET Framework 2.0 این امکان در
+		/// </summary>
 		public int Salary
 		{
 			get
@@ -32,14 +35,16 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person(1000000);
+		//public static void Main()
+		//{
+		//	Person person = new Person(1_000_000);
 
-			//person.Salary = 2000000; // Compile Error!
+		//	//person.Salary = 2_000_000; // Compile Error!
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

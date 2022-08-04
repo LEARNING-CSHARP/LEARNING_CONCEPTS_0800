@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn03
+﻿namespace Learn03
 {
 	public class Person
 	{
@@ -18,7 +18,7 @@
 
 		public void SetAge(int age)
 		{
-			if ((age >= 0) && (age <= 100))
+			if (age >= 0 && age <= 100)
 			{
 				_age = age;
 			}
@@ -27,9 +27,9 @@
 		public void ShowInformation()
 		{
 			string message =
-				$"I'm { GetAge() } years old.";
+				$"I'm {GetAge()} years old.";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(value: message);
 		}
 	}
 
@@ -39,26 +39,28 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.SetAge(30);
+		//	person.SetAge(30);
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.SetAge(-20);
+		//	person.SetAge(-20);
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.SetAge(5000);
+		//	person.SetAge(5_000);
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
 		}
 	}
 }

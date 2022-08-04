@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn05
+﻿namespace Learn05
 {
 	public class Person
 	{
@@ -52,7 +52,7 @@
 			}
 		}
 
-		//private string fatherName;
+		//private string _fatherName;
 
 		// هم چین چیزی نداریم
 		//public string FatherName
@@ -62,7 +62,7 @@
 		public void ShowInformation()
 		{
 			string message =
-				$"I'm { Age } years old.";
+				$"I'm {Age} years old.";
 
 			System.Console.WriteLine(message);
 		}
@@ -74,21 +74,23 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.Age = 30;
-			int age = person.Age;
+		//	person.Age = 30;
+		//	int age = person.Age;
 
-			person.FirstName = "Dariush";
-			//string firstName = person.FirstName; // Compile Error!
+		//	person.FirstName = "Dariush";
+		//	//string firstName = person.FirstName; // Compile Error!
 
-			//person.LastName = "Tasdighi"; // Compile Error!
-			string lastName = person.LastName;
+		//	//person.LastName = "Tasdighi"; // Compile Error!
+		//	string lastName = person.LastName;
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

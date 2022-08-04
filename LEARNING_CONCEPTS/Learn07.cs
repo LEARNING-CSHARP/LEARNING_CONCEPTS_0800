@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn07
+﻿namespace Learn07
 {
 	public class Person
 	{
@@ -33,15 +33,17 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.Age = 30;
-			//person.age = 30;
+		//	person.Age = 30;
+		//	//person.age = 30;
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

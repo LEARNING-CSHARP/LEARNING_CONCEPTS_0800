@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn12
+﻿namespace Learn12
 {
 	/// <summary>
 	/// کلاس شخص
@@ -33,7 +33,7 @@
 			}
 			set
 			{
-				if ((value >= 0) && (value <= 100))
+				if (value >= 0 && value <= 100)
 				{
 					_age = value;
 				}
@@ -125,7 +125,7 @@
 				//	$"{ _firstName } { _lastName }".Trim();
 
 				string result =
-					$"{ FirstName } { LastName }".Trim();
+					$"{FirstName} {LastName}".Trim();
 
 				return result;
 			}
@@ -140,10 +140,10 @@
 		{
 			// دستور ذیل حرفه‌ای نیست
 			//string message =
-			//	$"I'm { FullName } and { _age } years old and I make { _salary }$";
+			//	$"I'm {FullName} and {_age} years old and I make {_salary}$";
 
 			string message =
-				$"I'm { FullName } and { Age } years old and I make { Salary }$";
+				$"I'm {FullName} and {Age} years old and I make {Salary}$";
 
 			System.Console.WriteLine(message);
 		}

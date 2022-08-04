@@ -1,4 +1,4 @@
-﻿namespace LEARNING_CONCEPTS.Learn01
+﻿namespace Learn01
 {
 	public class Person
 	{
@@ -11,9 +11,9 @@
 		public void ShowInformation()
 		{
 			string message =
-				$"I'm { Age } years old.";
+				$"I'm {Age} years old.";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(value: message);
 		}
 	}
 
@@ -23,26 +23,28 @@
 		{
 		}
 
-		public static void Main()
-		{
-			Person person = new Person();
+		//public static void Main()
+		//{
+		//	Person person = new Person();
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.Age = 30;
+		//	person.Age = 30;
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.Age = -20;
+		//	person.Age = -20;
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			person.Age = 5000;
+		//	person.Age = 5_000;
 
-			person.ShowInformation();
+		//	person.ShowInformation();
 
-			System.Console.Write("Press [ENTER] To Exit... ");
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }
