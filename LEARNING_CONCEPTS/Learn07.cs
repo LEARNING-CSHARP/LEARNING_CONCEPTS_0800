@@ -35,7 +35,7 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person();
+		//	var person = new Person();
 
 		//	person.Age = 30;
 		//	//person.age = 30;

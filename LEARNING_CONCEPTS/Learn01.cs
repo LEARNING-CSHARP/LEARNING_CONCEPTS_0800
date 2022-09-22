@@ -10,7 +10,7 @@
 
 		public void ShowInformation()
 		{
-			string message =
+			var message =
 				$"I'm {Age} years old.";
 
 			System.Console.WriteLine(value: message);
@@ -25,7 +25,7 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person();
+		//	var person = new Person();
 
 		//	person.ShowInformation();
 
@@ -37,6 +37,7 @@
 
 		//	person.ShowInformation();
 
+		//	//person.Age = 5000;
 		//	person.Age = 5_000;
 
 		//	person.ShowInformation();

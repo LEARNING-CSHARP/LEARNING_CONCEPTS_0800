@@ -41,19 +41,19 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person();
+		//	var person = new Person();
 
 		//	person.ShowInformation();
 
-		//	person.SetAge(30);
+		//	person.SetAge(age: 30);
 
 		//	person.ShowInformation();
 
-		//	person.SetAge(-20);
+		//	person.SetAge(age: -20);
 
 		//	person.ShowInformation();
 
-		//	person.SetAge(5_000);
+		//	person.SetAge(age: 5_000);
 
 		//	person.ShowInformation();
 
@@ -61,6 +61,6 @@
 		//		(value: "Press [ENTER] To Exit... ");
 
 		//	System.Console.ReadLine();
-		}
+		//}
 	}
 }

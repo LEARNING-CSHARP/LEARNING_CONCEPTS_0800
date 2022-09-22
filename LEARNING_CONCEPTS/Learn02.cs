@@ -29,10 +29,10 @@
 
 		public void ShowInformation()
 		{
-			//string message =
+			//var message =
 			//	$"I'm {_age} years old.";
 
-			string message =
+			var message =
 				$"I'm {GetAge()} years old.";
 
 			System.Console.WriteLine(value: message);
@@ -47,22 +47,22 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person();
+		//	var person = new Person();
 
 		//	person.ShowInformation();
 
 		//	//person._age = 30; // Compile Error!
-		//	person.SetAge(30);
+		//	person.SetAge(age: 30);
 
 		//	person.ShowInformation();
 
 		//	//person._age = -20; // Compile Error!
-		//	person.SetAge(-20);
+		//	person.SetAge(age: -20);
 
 		//	person.ShowInformation();
 
 		//	//person._age = 5_000; // Compile Error!
-		//	person.SetAge(5_000);
+		//	person.SetAge(age: 5_000);
 
 		//	person.ShowInformation();
 
@@ -73,4 +73,3 @@
 		//}
 	}
 }
-

@@ -2,9 +2,11 @@
 {
 	public class Person
 	{
+		#region Constructor
 		public Person()
 		{
 		}
+		#endregion /Constructor
 
 		// دستور ذیل مطلقا توصیه نمی‌شود
 		//public int Age;
@@ -35,16 +37,11 @@
 		public int SomeProperty2 { get; }
 
 		#region Salary Property
-		// **********
-		// **********
-		// **********
 		/// <summary>
 		/// 
 		/// </summary>
 		private int _salary;
-		// **********
 
-		// **********
 		/// <summary>
 		/// 
 		/// </summary>
@@ -59,9 +56,6 @@
 				_salary = value;
 			}
 		}
-		// **********
-		// **********
-		// **********
 		#endregion /Salary Property
 
 		public void ShowInformation()
@@ -79,16 +73,16 @@
 		{
 		}
 
-		//public static void Main()
-		//{
-		//	Person person = new Person();
+		public static void Main()
+		{
+			var person = new Person();
 
-		//	person.Age = 30;
+			person.Age = 30;
 
-		//	System.Console.Write
-		//		(value: "Press [ENTER] To Exit... ");
+			System.Console.Write
+				(value: "Press [ENTER] To Exit... ");
 
-		//	System.Console.ReadLine();
-		//}
+			System.Console.ReadLine();
+		}
 	}
 }

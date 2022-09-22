@@ -64,7 +64,7 @@
 			string message =
 				$"I'm {Age} years old.";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(value: message);
 		}
 	}
 
@@ -76,16 +76,16 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person();
+		//	var person = new Person();
 
 		//	person.Age = 30;
-		//	int age = person.Age;
+		//	var age = person.Age;
 
 		//	person.FirstName = "Dariush";
-		//	//string firstName = person.FirstName; // Compile Error!
+		//	//var firstName = person.FirstName; // Compile Error!
 
 		//	//person.LastName = "Tasdighi"; // Compile Error!
-		//	string lastName = person.LastName;
+		//	var lastName = person.LastName;
 
 		//	System.Console.Write
 		//		(value: "Press [ENTER] To Exit... ");

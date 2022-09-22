@@ -48,22 +48,22 @@
 		{
 		}
 
-		//public static void Main()
-		//{
-		//	Person person = new Person();
+		public static void Main()
+		{
+			var person = new Person();
 
-		//	person.Age = 30;
-		//	person.Age = -20;
-		//	person.Age = 5_000;
+			person.Age = 30;
+			person.Age = -20;
+			person.Age = 5_000;
 
-		//	person.DoSomething(30);
-		//	person.DoSomething(-20);
-		//	person.DoSomething(5_000);
+			person.DoSomething(age: 30);
+			person.DoSomething(age: -20);
+			person.DoSomething(age: 5_000);
 
-		//	System.Console.Write
-		//		(value: "Press [ENTER] To Exit... ");
+			System.Console.Write
+				(value: "Press [ENTER] To Exit... ");
 
-		//	System.Console.ReadLine();
-		//}
+			System.Console.ReadLine();
+		}
 	}
 }
