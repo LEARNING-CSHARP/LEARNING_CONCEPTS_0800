@@ -121,10 +121,10 @@
 			get
 			{
 				// دستور ذیل حرفه‌ای نیست
-				//string result =
+				//var result =
 				//	$"{ _firstName } { _lastName }".Trim();
 
-				string result =
+				var result =
 					$"{FirstName} {LastName}".Trim();
 
 				return result;
@@ -145,7 +145,7 @@
 			string message =
 				$"I'm {FullName} and {Age} years old and I make {Salary}$";
 
-			System.Console.WriteLine(message);
+			System.Console.WriteLine(value: message);
 		}
 		#endregion /ShowInformation Method
 	}

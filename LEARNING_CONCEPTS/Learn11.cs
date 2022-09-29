@@ -29,22 +29,23 @@
 		}
 	}
 
-	//public static class Program
-	//{
-	//	static Program()
-	//	{
-	//	}
+	public static class Program
+	{
+		static Program()
+		{
+		}
 
-	//	public static void Main()
-	//	{
-	//		Person person = new Person();
+		//public static void Main()
+		//{
+		//	var person =
+		//		new Person();
 
-	//		person.Age = 20;
+		//	person.Age = 20;
 
-	//		System.Console.Write
-	//			(value: "Press [ENTER] To Exit... ");
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
 
-	//		System.Console.ReadLine();
-	//	}
-	//}
+		//	System.Console.ReadLine();
+		//}
+	}
 }

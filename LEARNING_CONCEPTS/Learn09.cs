@@ -31,7 +31,8 @@
 
 		//public static void Main()
 		//{
-		//	Person person = new Person(1_000_000);
+		//	var person =
+		//		new Person(salary: 1_000_000);
 
 		//	//person.Salary = 2_000_000; // Compile Error!
 
