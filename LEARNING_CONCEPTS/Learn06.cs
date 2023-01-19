@@ -36,10 +36,7 @@
 
 		public int SomeProperty2 { get; }
 
-		#region Salary Property
-		/// <summary>
-		/// 
-		/// </summary>
+		#region int Salary
 		private int _salary;
 
 		/// <summary>
@@ -56,7 +53,7 @@
 				_salary = value;
 			}
 		}
-		#endregion /Salary Property
+		#endregion /int Salary
 
 		public void ShowInformation()
 		{
@@ -73,16 +70,18 @@
 		{
 		}
 
-		public static void Main()
-		{
-			var person = new Person();
+		//public static void Main()
+		//{
+		//	var person = new Person();
 
-			person.Age = 30;
+		//	person.Age = 30;
 
-			System.Console.Write
-				(value: "Press [ENTER] To Exit... ");
+		//	person.ShowInformation();
 
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }
