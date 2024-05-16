@@ -76,6 +76,8 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (5)");
+
 		//	var person = new Person();
 
 		//	person.Age = 30;

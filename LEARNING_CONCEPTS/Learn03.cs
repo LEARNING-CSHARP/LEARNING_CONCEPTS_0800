@@ -41,6 +41,8 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (3)");
+
 		//	var person = new Person();
 
 		//	person.ShowInformation();

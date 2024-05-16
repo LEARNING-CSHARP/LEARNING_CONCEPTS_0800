@@ -36,7 +36,7 @@
 
 		public int SomeProperty2 { get; }
 
-		#region int Salary
+		#region public int Salary { get; set; }
 		private int _salary;
 
 		/// <summary>
@@ -53,8 +53,9 @@
 				_salary = value;
 			}
 		}
-		#endregion /int Salary
+		#endregion /public int Salary { get; set; }
 
+		#region ShowInformation()
 		public void ShowInformation()
 		{
 			string message =
@@ -62,6 +63,7 @@
 
 			System.Console.WriteLine(value: message);
 		}
+		#endregion /ShowInformation()
 	}
 
 	public static class Program
@@ -72,6 +74,8 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (6)");
+
 		//	var person = new Person();
 
 		//	person.Age = 30;

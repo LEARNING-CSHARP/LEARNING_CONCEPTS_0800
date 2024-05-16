@@ -50,6 +50,8 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (8)");
+
 		//	var person = new Person();
 
 		//	person.Age = 30;

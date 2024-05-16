@@ -31,6 +31,8 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (9)");
+
 		//	var person =
 		//		new Person(salary: 1_000_000);
 

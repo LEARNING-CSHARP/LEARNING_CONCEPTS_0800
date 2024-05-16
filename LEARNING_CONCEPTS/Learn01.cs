@@ -23,29 +23,31 @@
 		{
 		}
 
-		public static void Main()
-		{
-			var person = new Person();
+		//public static void Main()
+		//{
+		//	System.Console.WriteLine(value: "Learn (1)");
 
-			person.ShowInformation();
+		//	var person = new Person();
 
-			person.Age = 30;
+		//	person.ShowInformation();
 
-			person.ShowInformation();
+		//	person.Age = 30;
 
-			person.Age = -20;
+		//	person.ShowInformation();
 
-			person.ShowInformation();
+		//	person.Age = -20;
 
-			person.Age = 5_000;
-			//person.Age = 5000;
+		//	person.ShowInformation();
 
-			person.ShowInformation();
+		//	person.Age = 5_000;
+		//	//person.Age = 5000;
 
-			System.Console.Write
-				(value: "Press [ENTER] To Exit... ");
+		//	person.ShowInformation();
 
-			System.Console.ReadLine();
-		}
+		//	System.Console.Write
+		//		(value: "Press [ENTER] To Exit... ");
+
+		//	System.Console.ReadLine();
+		//}
 	}
 }

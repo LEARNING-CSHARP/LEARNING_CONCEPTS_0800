@@ -16,7 +16,7 @@
 		}
 		#endregion /Constructor
 
-		#region Age Property
+		#region public int Age { get; set; }
 		/// <summary>
 		/// سن
 		/// </summary>
@@ -39,9 +39,9 @@
 				}
 			}
 		}
-		#endregion /Age Property
+		#endregion /public int Age { get; set; }
 
-		#region Salary Property
+		#region public int Salary { get; private set; }
 		/// <summary>
 		/// حقوق
 		/// </summary>
@@ -64,7 +64,7 @@
 				}
 			}
 		}
-		#endregion /Salary Property
+		#endregion /public int Salary { get; private set; }
 
 		//private string _firstName;
 
@@ -80,12 +80,12 @@
 		//	}
 		//}
 
-		#region FirstName Property
+		#region public string FirstName { get; set; }
 		/// <summary>
 		/// نام
 		/// </summary>
 		public string FirstName { get; set; }
-		#endregion /FirstName Property
+		#endregion /public string FirstName { get; set; }
 
 		//private string _lastName;
 
@@ -101,18 +101,18 @@
 		//	}
 		//}
 
-		#region LastName Property
+		#region public string LastName { get; set; }
 		/// <summary>
 		/// نام خانوادگی
 		/// </summary>
 		public string LastName { get; set; }
-		#endregion /LastName Property
+		#endregion /public string LastName { get; set; }
 
 		// های محاسباتی می‌باشد Property جزء FullName
 		// نوابغ توجه داشته باشند که به هیچ عنوان نیازی به این فیلد نیست
 		//private string _fullName;
 
-		#region FullName Property
+		#region public string FullName { get; }
 		/// <summary>
 		/// نام و نام خانوادگی
 		/// </summary>
@@ -122,7 +122,7 @@
 			{
 				// دستور ذیل حرفه‌ای نیست
 				//var result =
-				//	$"{ _firstName } { _lastName }".Trim();
+				//	$"{_firstName} {_lastName}".Trim();
 
 				var result =
 					$"{FirstName} {LastName}".Trim();
@@ -130,9 +130,9 @@
 				return result;
 			}
 		}
-		#endregion /FullName Property
+		#endregion /public string FullName { get; }
 
-		#region ShowInformation Method
+		#region public void ShowInformation()
 		/// <summary>
 		/// با استفاده از این تابع اطلاعات شخص به طور کامل نمایش داده می‌شود
 		/// </summary>
@@ -147,6 +147,6 @@
 
 			System.Console.WriteLine(value: message);
 		}
-		#endregion /ShowInformation Method
+		#endregion /public void ShowInformation()
 	}
 }

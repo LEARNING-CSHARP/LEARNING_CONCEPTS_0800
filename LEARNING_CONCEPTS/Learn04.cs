@@ -45,14 +45,16 @@
 
 		//public static void Main()
 		//{
+		//	System.Console.WriteLine(value: "Learn (4)");
+
 		//	var person = new Person();
 
 		//	person.ShowInformation();
 
-		//	//person.SomeField
+		//	person.SomeField = 100;
 
 		//	person.Age = 30;
-		//	int age = person.Age;
+		//	var age = person.Age;
 
 		//	person.ShowInformation();
 
