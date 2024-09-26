@@ -142,7 +142,10 @@
 			//string message =
 			//	$"I'm {FullName} and {_age} years old and I make {_salary}$";
 
-			string message =
+			//string message =
+			//	$"I'm {FullName} and {Age} years old and I make {Salary}$";
+
+			var message =
 				$"I'm {FullName} and {Age} years old and I make {Salary}$";
 
 			System.Console.WriteLine(value: message);

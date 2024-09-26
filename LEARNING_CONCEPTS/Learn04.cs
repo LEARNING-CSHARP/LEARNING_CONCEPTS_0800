@@ -1,75 +1,75 @@
-﻿namespace Learn04
-{
-	public class Person
-	{
-		public Person()
-		{
-		}
+﻿//namespace Learn04
+//{
+//	public class Person
+//	{
+//		public Person()
+//		{
+//		}
 
-		public int SomeField;
+//		public int SomeField;
 
-		// دستور ذیل مطلقا توصیه نمی‌شود
-		//public int Age;
+//		// دستور ذیل مطلقا توصیه نمی‌شود
+//		//public int Age;
 
-		private int _age;
+//		private int _age;
 
-		public int Age
-		{
-			get
-			{
-				return _age;
-			}
-			set
-			{
-				if (value >= 0 && value <= 100)
-				{
-					_age = value;
-				}
-			}
-		}
+//		public int Age
+//		{
+//			get
+//			{
+//				return _age;
+//			}
+//			set
+//			{
+//				if (value >= 0 && value <= 100)
+//				{
+//					_age = value;
+//				}
+//			}
+//		}
 
-		public void ShowInformation()
-		{
-			string message =
-				$"I'm {Age} years old.";
+//		public void ShowInformation()
+//		{
+//			string message =
+//				$"I'm {Age} years old.";
 
-			System.Console.WriteLine(value: message);
-		}
-	}
+//			System.Console.WriteLine(value: message);
+//		}
+//	}
 
-	public static class Program
-	{
-		static Program()
-		{
-		}
+//	public static class Program
+//	{
+//		static Program()
+//		{
+//		}
 
-		//public static void Main()
-		//{
-		//	System.Console.WriteLine(value: "Learn (4)");
+//		public static void Main()
+//		{
+//			System.Console.WriteLine(value: "Learn (4)");
 
-		//	var person = new Person();
+//			var person = new Person();
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.SomeField = 100;
+//			person.SomeField = 100;
 
-		//	person.Age = 30;
-		//	var age = person.Age;
+//			person.Age = 30;
+//			var age = person.Age;
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.Age = -20;
+//			person.Age = -20;
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.Age = 5_000;
+//			person.Age = 5_000;
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	System.Console.Write
-		//		(value: "Press [ENTER] To Exit... ");
+//			System.Console.Write
+//				(value: "Press [ENTER] To Exit... ");
 
-		//	System.Console.ReadLine();
-		//}
-	}
-}
+//			System.Console.ReadLine();
+//		}
+//	}
+//}

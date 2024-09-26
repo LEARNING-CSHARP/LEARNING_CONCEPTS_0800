@@ -1,68 +1,68 @@
-﻿namespace Learn03
-{
-	public class Person
-	{
-		public Person()
-		{
-		}
+﻿//namespace Learn03
+//{
+//	public class Person
+//	{
+//		public Person()
+//		{
+//		}
 
-		// دستور ذیل مطلقا توصیه نمی‌شود
-		//public int Age;
+//		// دستور ذیل مطلقا توصیه نمی‌شود
+//		//public int Age;
 
-		private int _age;
+//		private int _age;
 
-		public int GetAge()
-		{
-			return _age;
-		}
+//		public int GetAge()
+//		{
+//			return _age;
+//		}
 
-		public void SetAge(int age)
-		{
-			if (age >= 0 && age <= 100)
-			{
-				_age = age;
-			}
-		}
+//		public void SetAge(int age)
+//		{
+//			if (age >= 0 && age <= 100)
+//			{
+//				_age = age;
+//			}
+//		}
 
-		public void ShowInformation()
-		{
-			string message =
-				$"I'm {GetAge()} years old.";
+//		public void ShowInformation()
+//		{
+//			string message =
+//				$"I'm {GetAge()} years old.";
 
-			System.Console.WriteLine(value: message);
-		}
-	}
+//			System.Console.WriteLine(value: message);
+//		}
+//	}
 
-	public static class Program
-	{
-		static Program()
-		{
-		}
+//	public static class Program
+//	{
+//		static Program()
+//		{
+//		}
 
-		//public static void Main()
-		//{
-		//	System.Console.WriteLine(value: "Learn (3)");
+//		public static void Main()
+//		{
+//			System.Console.WriteLine(value: "Learn (3)");
 
-		//	var person = new Person();
+//			var person = new Person();
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.SetAge(age: 30);
+//			person.SetAge(age: 30);
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.SetAge(age: -20);
+//			person.SetAge(age: -20);
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	person.SetAge(age: 5_000);
+//			person.SetAge(age: 5_000);
 
-		//	person.ShowInformation();
+//			person.ShowInformation();
 
-		//	System.Console.Write
-		//		(value: "Press [ENTER] To Exit... ");
+//			System.Console.Write
+//				(value: "Press [ENTER] To Exit... ");
 
-		//	System.Console.ReadLine();
-		//}
-	}
-}
+//			System.Console.ReadLine();
+//		}
+//	}
+//}
